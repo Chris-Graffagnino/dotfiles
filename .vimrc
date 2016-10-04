@@ -64,10 +64,13 @@ inoremap jj <ESC>
 " Paste pdb, indented by multiples of 4 spaces
 nnoremap q o<ESC>iimport pdb; pdb.set_trace()<ESC>
 nnoremap 2q o<ESC>iimport pdb; pdb.set_trace()<C-[>V>
-nnoremap 3q iimport pdb; pdb.set_trace()<C-[>V2>
-nnoremap 4q iimport pdb; pdb.set_trace()<C-[>V3>
-nnoremap 5q iimport pdb; pdb.set_trace()<C-[>V4>
-nnoremap 6q iimport pdb; pdb.set_trace()<C-[>V5>
+nnoremap 3q o<ESC>iimport pdb; pdb.set_trace()<C-[>V2>
+nnoremap 4q o<ESC>iimport pdb; pdb.set_trace()<C-[>V3>
+nnoremap 5q o<ESC>iimport pdb; pdb.set_trace()<C-[>V4>
+nnoremap 6q o<ESC>iimport pdb; pdb.set_trace()<C-[>V5>
+nnoremap 7q o<ESC>iimport pdb; pdb.set_trace()<C-[>V6>
+nnoremap 8q o<ESC>iimport pdb; pdb.set_trace()<C-[>V7>
+nnoremap 9q o<ESC>iimport pdb; pdb.set_trace()<C-[>V8>
 
 " Split Navigation
 nnoremap <C-J> <C-W><C-J>
