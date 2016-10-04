@@ -61,9 +61,9 @@ nnoremap gk k
 "escape shortcut
 inoremap jj <ESC>
 
-" Paste text from z register (for pdb)
-nnoremap q iimport pdb; pdb.set_trace()
-nnoremap 2q iimport pdb; pdb.set_trace()<C-[>V>
+" Paste pdb, indented by multiples of 4 spaces
+nnoremap q o<ESC>iimport pdb; pdb.set_trace()<ESC>
+nnoremap 2q o<ESC>iimport pdb; pdb.set_trace()<C-[>V>
 nnoremap 3q iimport pdb; pdb.set_trace()<C-[>V2>
 nnoremap 4q iimport pdb; pdb.set_trace()<C-[>V3>
 nnoremap 5q iimport pdb; pdb.set_trace()<C-[>V4>
