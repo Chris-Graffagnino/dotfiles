@@ -1,3 +1,17 @@
+source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/.envs
+# export FOOBAR_ENV=local
+
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+#export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+e#xport PATH=./node_modules/.bin:$PATH
+
+export NVM_DIR="/Users/chrisgraffagnino/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+
 # Include alias definitions
 if [ -f ~/.bash_aliases ]; then
       . ~/.bash_aliases
