@@ -5,7 +5,7 @@ export WORKON_HOME=~/.envs
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 #export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
-e#xport PATH=./node_modules/.bin:$PATH
+#export PATH=./node_modules/.bin:$PATH
 
 export NVM_DIR="/Users/chrisgraffagnino/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
